@@ -1,3 +1,6 @@
+ ; This script opens up the Windows Sound Playback tab and changes the playback device - the device is changed either to the 1st device or 2nd device. Then the Sound window is closed.
+
+
 ^sc0046::
     Run, mmsys.cpl
     WinWait,Sound

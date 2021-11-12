@@ -8,3 +8,7 @@ Change the output device between the 1st sound device and the 2nd sound device i
 
 #### AHK - Insert Date.ahk
 Type the current date in "YYYY-MM-DD" format.
+
+---
+
+List of keys to change activation combos: https://www.autohotkey.com/docs/KeyList.htm

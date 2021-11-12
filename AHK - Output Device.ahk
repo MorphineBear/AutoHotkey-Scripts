@@ -2,7 +2,7 @@
 
 ; The menu is opened, moved down 1 or 2 selections, set as default, and then the window is closed.
 
-; Press [CTRL] + [PRINT SCREEN] to select output device 1 or [CTRL] + [SCROLL LOCK] to select output device 2.
+; Press [CTRL] + [SCROLL LOCK] to select output device 1 or [CTRL] + [PAUSE] to select output device 2.
 
 ^sc0046::
     Run, mmsys.cpl

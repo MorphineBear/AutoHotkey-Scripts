@@ -3,7 +3,7 @@
 ; * www.autohotkey.com/docs/commands/FormatTime.htm
 
 ; Type the current date in "YYYY-MM-DD" format. Activate using [WIN key] + [RIGHT ARROW].
-; Change '#right::' to use a different activation combination.
+; Change '#right::' to use a different activation combination. www.autohotkey.com/docs/KeyList.htm
 
 #right::                     
 FormatTime, time, A_now, yyyy-MM-dd

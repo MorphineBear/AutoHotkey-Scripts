@@ -11,4 +11,6 @@ Type the current date in "YYYY-MM-DD" format.
 
 ---
 
-List of keys to change activation combos: https://www.autohotkey.com/docs/KeyList.htm
+List of keys to change activation combos: 
+* www.autohotkey.com/docs/Hotkeys.htm
+* www.autohotkey.com/docs/KeyList.htm

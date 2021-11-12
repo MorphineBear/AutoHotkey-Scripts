@@ -1,13 +1,13 @@
 ## AutoHotkey Scripts
 
 #### AHK - Volume Level.ahk 
-This script changes the volume up or down 2 "presses" in Windows. Windows changes volume in units of 2, so when this script activates, it will change the volume by a total of 4 units.
+Changes volume up or down 2 "presses" in Windows. This will change the volume by 4 units.
 
 #### AHK - Output Device.ahk
-Change the output device between the 1st sound device and the 2nd sound device in the Sound > Playback menu on Windows.
+Changes the output device to either the 1st-listed sound device or 2nd-listed sound device in the Sound > Playback menu on Windows.
 
 #### AHK - Insert Date.ahk
-Type the current date in "YYYY-MM-DD" format.
+Types the current date in "YYYY-MM-DD" format.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ; Type the current date in "YYYY-MM-DD" format. Activate using [Ctrl] + [Numpad 5].
 ; Note: Num Lock can be on or off.
-; Change '#right::' to use a different activation combination. 
+; Change '#Numpad5::' and/or '#NumpadClear' to use a different activation combination. 
 ; * www.autohotkey.com/docs/Hotkeys.htm
 ; * www.autohotkey.com/docs/KeyList.htm
 

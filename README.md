@@ -4,13 +4,13 @@
 Changes volume up or down 2 "presses" in Windows. This will change the volume by 4 units.
 
 #### AHK - Output Device.ahk
-Changes the output device to either the 1st-listed sound device or 2nd-listed sound device in the Sound > Playback menu on Windows.
+Changes output device to either the 1st-listed sound device or 2nd-listed sound device in the Sound > Playback menu on Windows. Created for swapping between speakers and headphones.
 
 #### AHK - Insert Date.ahk
 Types the current date in "YYYY-MM-DD" format.
 
 #### AHK - Repeat YT Skip.ahk
-When watching a Youtube video, this script will press RIGHT arrow and skip the next 5 seconds of video. The script activates every 2 seconds, for 60 seconds. Created for watching long videos.
+Presses RIGHT arrow every 2 seconds, for 60 seconds. Created for watching long Youtube videos.
 
 ---
 

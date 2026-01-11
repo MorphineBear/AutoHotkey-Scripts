@@ -1,0 +1,48 @@
+; For use on 1800 layout keyboards with the row above the numpad:
+; [HOME] [INSERT] [PAGE UP] [PAGE DOWN]
+
+^PgUp::
+    Run, mmsys.cpl
+    WinWait,Sound
+    ControlSend,SysListView321,{Down 1}
+    ControlClick,&Set Default
+    ControlClick,OK
+    return
+^PgDn::
+    Run, mmsys.cpl
+    WinWait,Sound
+    ControlSend,SysListView321,{Down 2}
+    ControlClick,&Set Default
+    ControlClick,OK
+    return
+
+
+
+
+
+; Above is revised version of below script for 1800 keyboards.
+; https://github.com/MorphineBear/AutoHotkey-Scripts/blob/main/AHK%20-%20Output%20Device.ahk
+; Instead of PAUSE and SCROLL LOCK, it uses PAGE UP and PAGE DOWN.
+
+;-------------------------------
+
+; Change the output device between the 1st sound device and the 2nd sound device in the Sound > Playback menu on Windows.
+
+; The menu is opened, moved down 1 or 2 selections, set as default, and then the window is closed.
+
+; Press [CTRL] + [SCROLL LOCK] to select output device 1 or [CTRL] + [PAUSE] to select output device 2.
+
+;^sc0046::
+    Run, mmsys.cpl
+    WinWait,Sound
+    ControlSend,SysListView321,{Down 1}
+    ControlClick,&Set Default
+    ControlClick,OK
+    return
+;^sc0146::
+    Run, mmsys.cpl
+    WinWait,Sound
+    ControlSend,SysListView321,{Down 2}
+    ControlClick,&Set Default
+    ControlClick,OK
+    return

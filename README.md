@@ -1,4 +1,4 @@
-## AutoHotkey Scripts
+## AutoHotkey Version 1 Scripts
 
 #### AHK - Volume Level.ahk 
 Changes volume up or down 2 "presses" in Windows. This will change the volume by 4 units.
